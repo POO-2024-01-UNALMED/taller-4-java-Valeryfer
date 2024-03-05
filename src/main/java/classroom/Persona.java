@@ -10,6 +10,10 @@ public class Persona {
         totalPersonas = 0;
     }
 
+    public Persona() {
+        totalPersonas++;
+    }
+
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;
         this.nombre = nombre;
