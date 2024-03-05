@@ -11,7 +11,7 @@ public class Asignatura {
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
         this.codigoExterno = 0;
-        this.codigoInterno = 0
+        this.codigoInterno = 0;
     }
 
     public Asignatura(double codigoInterno,Tipo tipo) {
